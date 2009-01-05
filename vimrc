@@ -40,7 +40,7 @@ let g:miniBufExplModSelTarget = 1
 let g:rails_default_file='config/database.yml'
  
 set nocompatible          " We're running Vim, not Vi!
-set guifont=Monaco:h13
+set guifont=monospace:h23
 set guitablabel=%M%t
 set nobackup
 set nowritebackup
@@ -110,7 +110,7 @@ let g:proj_flags="imstg"
 let g:fuzzy_ceiling=20000
 let g:fuzzy_matching_limit=25
 let g:fuzzy_ignore = "gems/*, log/*"
-set cursorline
+" set cursorline
 
 "folding settings
 set foldmethod=indent   "fold based on indent
